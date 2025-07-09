@@ -11,20 +11,38 @@ CRED_JSON = os.getenv('GOOGLE_CRED_JSON')
 sheet = init_sheet(SHEET_ID, CRED_JSON)
 
 # Defina aqui os horários (formato: HHMM)
-HORARIOS = [830, 840, 900]
+HORARIOS = [0600, 1200, 1800]
 
 OFFERTS = [
     {
-        "nome": "Cabelo",
-        "status": "escala",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=146313895221551",
-        "page_link": "https://minhapagina.com/oferta1"
+        "nome": "Precoce",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=654061921118397",
+        "page_link": "https://quiz.cakto.com.br/responda-EVxSYx"
     },
     {
-        "nome": "Seducao",
-        "status": "escala",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=709762742217408",
-        "page_link": "https://minhapagina.com/oferta2"
+        "nome": "Seca banha",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=743027218884835",
+        "page_link": "https://54188.xpages.co/"
+    },
+    {
+        "nome": "Astrologia",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=673055179221190",
+        "page_link": "https://quiz.astrologiasemfirula.com/"
+    },
+    {
+        "nome": "Gripe Filho",
+        "status": "pre escala",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=108074855424424",
+        "page_link": "https://xogripe.site/"
+    },
+    {
+        "nome": "Pix Video",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=395600250311478",
+        "page_link": "https://pixvideo.vercel.app/"
     }
     # adicione mais ofertas aqui
 ]
