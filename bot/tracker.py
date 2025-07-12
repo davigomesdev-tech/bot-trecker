@@ -15,24 +15,6 @@ HORARIOS = [0300, 0700, 1200, 1800, 2200]
 
 OFFERTS = [
     {
-        "nome": "Seca banha",
-        "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=743027218884835",
-        "page_link": "https://54188.xpages.co/"
-    },
-    {
-        "nome": "Astrologia",
-        "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=673055179221190",
-        "page_link": "https://quiz.astrologiasemfirula.com/"
-    },
-    {
-        "nome": "Gripe Filho",
-        "status": "pre escala",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=108074855424424",
-        "page_link": "https://xogripe.site/"
-    },
-    {
         "nome": "Religiao",
         "status": "pre escala",
         "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=470616732810336",
