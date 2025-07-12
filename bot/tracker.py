@@ -11,15 +11,9 @@ CRED_JSON = os.getenv('GOOGLE_CRED_JSON')
 sheet = init_sheet(SHEET_ID, CRED_JSON)
 
 # Defina aqui os horários (formato: HHMM)
-HORARIOS = [0600, 1200, 1800]
+HORARIOS = [0300, 0700, 1200, 1800, 2200]
 
 OFFERTS = [
-    {
-        "nome": "Precoce",
-        "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=654061921118397",
-        "page_link": "https://quiz.cakto.com.br/responda-EVxSYx"
-    },
     {
         "nome": "Seca banha",
         "status": "validação",
@@ -37,12 +31,6 @@ OFFERTS = [
         "status": "pre escala",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=108074855424424",
         "page_link": "https://xogripe.site/"
-    },
-    {
-        "nome": "Pix Video",
-        "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=395600250311478",
-        "page_link": "https://pixvideo.vercel.app/"
     }
     # adicione mais ofertas aqui
 ]
