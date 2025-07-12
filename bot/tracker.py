@@ -31,6 +31,18 @@ OFFERTS = [
         "status": "pre escala",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=108074855424424",
         "page_link": "https://xogripe.site/"
+    },
+    {
+        "nome": "Religiao",
+        "status": "pre escala",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=470616732810336",
+        "page_link": "https://quiz.cakto.com.br/cole%C3%A7%C3%A3o-dfcmg-2.1-eZICTS"
+    },
+    {
+        "nome": "Seca banha2",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=478939935310527",
+        "page_link": "https://inlead.digital/pilates-vec/"
     }
     # adicione mais ofertas aqui
 ]
