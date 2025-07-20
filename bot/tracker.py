@@ -11,7 +11,7 @@ CRED_JSON = os.getenv('GOOGLE_CRED_JSON')
 sheet = init_sheet(SHEET_ID, CRED_JSON)
 
 # Defina aqui os horários (formato: HHMM)
-HORARIOS = [0300, 0700, 1200, 1800, 2200]
+HORARIOS = [300, 700, 1200, 1800, 2200]
 
 OFFERTS = [
     {
