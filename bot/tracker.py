@@ -15,16 +15,34 @@ HORARIOS = [0300, 0700, 1200, 1800, 2200]
 
 OFFERTS = [
     {
-        "nome": "Religiao",
-        "status": "pre escala",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=470616732810336",
-        "page_link": "https://quiz.cakto.com.br/cole%C3%A7%C3%A3o-dfcmg-2.1-eZICTS"
+        "nome": "Celulite",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=335926936275636",
+        "page_link": "https://celulitezero.net/" 
     },
     {
-        "nome": "Seca banha2",
+        "nome": "Reconquistar Ex",
+        "status": "pre escala",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=252273351310701",
+        "page_link": "https://www.metodocontrolatumente.com/mp1/" 
+    },
+    {
+        "nome": "Mulher boa",
         "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=478939935310527",
-        "page_link": "https://inlead.digital/pilates-vec/"
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=679592661909218",
+        "page_link": "https://seashell-goldfish-940501.hostingersite.com/1/" 
+    },
+    {
+        "nome": "Mulher boa2",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=101991499536048",
+        "page_link": "https://secret69.store/l/" 
+    },
+    {
+        "nome": "Nutra Cabelo",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=674786479055567",
+        "page_link": "https://esteticaparatodas.shop/p/belli" 
     }
     # adicione mais ofertas aqui
 ]
