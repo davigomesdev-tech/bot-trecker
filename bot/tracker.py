@@ -43,6 +43,24 @@ OFFERTS = [
         "status": "validação",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=674786479055567",
         "page_link": "https://esteticaparatodas.shop/p/belli" 
+    },
+    {
+        "nome": "cigarro",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=721482367712433",
+        "page_link": "https://quiz.cakto.com.br/preview/vicios-cigarro-ZwdoLv" 
+    },
+    {
+        "nome": "mascara caseira",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=673803612486775",
+        "page_link": "https://tudoonlinee360.com.br/" 
+    },
+    {
+        "nome": "Lotofacil AI",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=718446011347059",
+        "page_link": "https://resgatedigital.space/sorteloto/loto00/" 
     }
     # adicione mais ofertas aqui
 ]
