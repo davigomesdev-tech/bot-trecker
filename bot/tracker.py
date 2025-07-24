@@ -61,7 +61,20 @@ OFFERTS = [
         "status": "validação",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=718446011347059",
         "page_link": "https://resgatedigital.space/sorteloto/loto00/" 
+    },
+    {
+        "nome": "Pele Mulher",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=356454970894276",
+        "page_link": "https://quiz.cakto.com.br/rejuvenescimentop-pLPTvh"
+    },
+    {
+        "nome": "Divivas",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=676857195511268",
+        "page_link": "https://quiz.cakto.com.br/o-segredo-MOxnLO"
     }
+    
     # adicione mais ofertas aqui
 ]
 
