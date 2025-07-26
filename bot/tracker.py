@@ -63,16 +63,52 @@ OFFERTS = [
         "page_link": "https://resgatedigital.space/sorteloto/loto00/" 
     },
     {
-        "nome": "Pele Mulher",
+        "nome": "Morango 1",
         "status": "validação",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=356454970894276",
-        "page_link": "https://quiz.cakto.com.br/rejuvenescimentop-pLPTvh"
+        "page_link": "https://uptqmonm.manus.space/"
     },
     {
         "nome": "Divivas",
         "status": "validação",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=676857195511268",
         "page_link": "https://quiz.cakto.com.br/o-segredo-MOxnLO"
+    },
+    {
+        "nome": "Morango 2",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=734673666398712",
+        "page_link": "https://amor-perfeito-landing-31.lovable.app/"
+    },
+    {
+        "nome": "seducao",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=705013096028486",
+        "page_link": "https://institutoespecialista.com/1-quiz-seducao/"
+    },
+    {
+        "nome": "Doces",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=701386549726656",
+        "page_link": "https://osdocescaramelizados.xpages.co/"
+    },
+    {
+        "nome": "reconstrução labial",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=703848672818293",
+        "page_link": "https://lp.mychellemelo.site/"
+    },
+    {
+        "nome": "morango 3",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=328733530313189",
+        "page_link": "https://morango-do-amor-lucrativo.lovable.app/"
+    },
+    {
+        "nome": "dor cerebro",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=264184400116012",
+        "page_link": "https://quiz.cakto.com.br/preview/estagio-de-cronificacao-fYxIiY"
     }
     
     # adicione mais ofertas aqui
