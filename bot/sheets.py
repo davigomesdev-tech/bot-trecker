@@ -30,17 +30,29 @@ def upsert_offer(sheet, offer, value, header):
         # Atualiza apenas a célula nova
         sheet.update_cell(row_index, col_index, value)
     else:
-        # Cria nova linha com dados fixos + célula nova
+        # Cria nova linha com dados fixos
         new_row = [
             offer["nome"],
             offer["status"],
             f'=HYPERLINK("{offer["lib_link"]}"; "biblioteca")',
             f'=HYPERLINK("{offer["page_link"]}"; "página de vendas")'
         ]
-        current_headers = sheet.row_values(1)
-        num_empty = len(current_headers) - len(new_row)
-        new_row += [""] * num_empty
-        if col_index > len(current_headers):
+
+        # Pega a quantidade total de colunas (com base na linha do header)
+        header_row = sheet.row_values(1)
+        total_cols = len(header_row)
+
+        # Preenche com células vazias até a coluna da contagem
+        while len(new_row) < total_cols:
+            new_row.append("")
+
+        # Agora, insere o valor na coluna certa
+        if col_index > len(new_row):
+            # Caso o header tenha sido recém-criado
             new_row += [""] * (col_index - len(new_row))
+
         new_row[col_index - 1] = value
+
+        # Adiciona nova linha completa
         sheet.append_row(new_row, value_input_option="USER_ENTERED")
+
