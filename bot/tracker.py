@@ -115,20 +115,14 @@ OFFERTS = [
 ]
 
 def job():
-    now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    print(f"[INFO] Rodando job em {now}")
-    row = []
+    now = datetime.datetime.now()
+    print(f"[INFO] Rodando job em {now.strftime('%Y-%m-%d %H:%M:%S')}")
+
+    header = now.strftime('%d/%m - %H:%M')
+
     for off in OFFERTS:
         qtd = count_active_ads(off["lib_link"])
-        row.extend([
-            off["nome"],
-            off["status"],
-            f'=HYPERLINK("{off["lib_link"]}"; "biblioteca")',
-            f'=HYPERLINK("{off["page_link"]}"; "página de vendas")',
-            f"{now}",
-            str(qtd)
-        ])
-    append_data(sheet, row)
+        upsert_offer(sheet, off, str(qtd), header)
 
 # Agendar os horários definidos
 for h in HORARIOS:
