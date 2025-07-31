@@ -5,52 +5,51 @@ import schedule
 from scraper import count_active_ads
 from sheets import init_sheet, upsert_offer
 from dotenv import load_dotenv
+from pytz import timezone
 
-# Carrega variáveis do .env
-load_dotenv()
-
+load_dotenv('config.env')
 SHEET_ID = os.getenv('SHEET_ID')
 CRED_JSON = os.getenv('GOOGLE_CRED_JSON')
 
-# Lista de ofertas monitoradas
+sheet = init_sheet(SHEET_ID, CRED_JSON)
+
+# Defina aqui os horários (formato: HHMM)
+HORARIOS = [300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1500, 1800, 2100, 0]
+
 OFFERTS = [
     {
         "nome": "Celulite",
         "status": "validação",
-        "lib_link": "https://seulink.com/lib1",
-        "page_link": "https://seulink.com/page1"
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=335926936275636",
+        "page_link": "https://celulitezero.net/" 
     },
     {
-        "nome": "Mulher Boa",
-        "status": "validação",
-        "lib_link": "https://seulink.com/lib2",
-        "page_link": "https://seulink.com/page2"
+        "nome": "Reconquistar Ex",
+        "status": "pre escala",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=252273351310701",
+        "page_link": "https://www.metodocontrolatumente.com/mp1/" 
     },
-    # Adicione mais aqui
+    # ... mantenha as outras ofertas iguais
 ]
-
-sheet = init_sheet(SHEET_ID, CRED_JSON)
 
 def job():
     now = datetime.datetime.now(timezone("America/Sao_Paulo"))
-    header = now.strftime('%d/%m - %H:00')
-    print(f"[INFO] Executando coleta: {header}")
+    header = now.strftime('%d/%m - %H:%M')
+    print(f"[INFO] Rodando job em {header}")
 
     for off in OFFERTS:
         qtd = count_active_ads(off["lib_link"])
         upsert_offer(sheet, off, str(qtd), header)
 
-# Exemplo de horários com minutos: (hora, minuto)
-horarios = [
-    (3, 0),
-    (4, 30)
-]
+# Agendar os horários definidos
+for h in HORARIOS:
+    hh = str(h).zfill(4)  # ex: 300 -> '0300'
+    hora_formatada = f"{hh[:2]}:{hh[2:]}"  # '0300' -> '03:00'
+    schedule.every().day.at(hora_formatada).do(job)
+    print(f"[AGENDA] Job agendado para {hora_formatada}")
 
-for h, m in horarios:
-    schedule.every().day.at(f"{h:02d}:{m:02d}").do(job)
-
-print("[INFO] Bot de monitoramento iniciado.")
-
-while True:
-    schedule.run_pending()
-    time.sleep(30)
+if __name__ == "__main__":
+    print("[INFO] Bot iniciado e aguardando os horários programados...")
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
