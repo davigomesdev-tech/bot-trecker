@@ -18,17 +18,23 @@ HORARIOS = [300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1500, 1800, 210
 
 OFFERTS = [
     {
-        "nome": "Celulite",
+        "nome": "URINA",
         "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=335926936275636",
-        "page_link": "https://celulitezero.net/" 
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=113502231769915",
+        "page_link": "https://testeincontinencia.lovable.app/" 
     },
     {
-        "nome": "Reconquistar Ex",
-        "status": "pre escala",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=252273351310701",
-        "page_link": "https://www.metodocontrolatumente.com/mp1/" 
+        "nome": "CRIANCA BIRRA",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=482914468231490",
+        "page_link": "https://formulaantiagressividade.com/bk-05/" 
     },
+    {
+        "nome": "CRIANCA LER",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=424371080758149",
+        "page_link": "https://kitccsmetodologia.fun/" 
+    }
     # ... mantenha as outras ofertas iguais
 ]
 
