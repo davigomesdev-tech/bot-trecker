@@ -1,8 +1,11 @@
-import os, time, datetime
+import os
+import time
+import datetime
 import schedule
 from scraper import count_active_ads
-from sheets import init_sheet, append_data
+from sheets import init_sheet, upsert_offer
 from dotenv import load_dotenv
+
 
 load_dotenv('config.env')
 SHEET_ID = os.getenv('SHEET_ID')
