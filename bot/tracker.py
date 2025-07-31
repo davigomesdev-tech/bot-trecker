@@ -5,47 +5,50 @@ import schedule
 from scraper import count_active_ads
 from sheets import init_sheet, upsert_offer
 from dotenv import load_dotenv
+from pytz import timezone
 
+# Carrega variáveis do .env
+load_dotenv()
 
-load_dotenv('config.env')
-SHEET_ID = os.getenv('SHEET_ID')
-CRED_JSON = os.getenv('GOOGLE_CRED_JSON')
+SHEET_ID = os.getenv("SHEET_ID")
+CRED_PATH = os.getenv("CRED_JSON_PATH")
 
-sheet = init_sheet(SHEET_ID, CRED_JSON)
-
-# Defina aqui os horários (formato: HHMM)
-HORARIOS = [300, 700, 1200, 1800, 2200]
-
+# Lista de ofertas monitoradas
 OFFERTS = [
     {
-        "nome": "Mulher boa2",
+        "nome": "Celulite",
         "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=101991499536048",
-        "page_link": "https://secret69.store/l/" 
-    }
-    
-    # adicione mais ofertas aqui
+        "lib_link": "https://seulink.com/lib1",
+        "page_link": "https://seulink.com/page1"
+    },
+    {
+        "nome": "Mulher Boa",
+        "status": "validação",
+        "lib_link": "https://seulink.com/lib2",
+        "page_link": "https://seulink.com/page2"
+    },
+    # Adicione mais aqui
 ]
 
-def job():
-    now = datetime.datetime.now()
-    print(f"[INFO] Rodando job em {now.strftime('%Y-%m-%d %H:%M:%S')}")
+sheet = init_sheet(SHEET_ID, CRED_PATH)
 
-    header = now.strftime('%d/%m - %H:%M')
+def job():
+    now = datetime.datetime.now(timezone("America/Sao_Paulo"))
+    header = now.strftime('%d/%m - %H:00')
+    print(f"[INFO] Executando coleta: {header}")
 
     for off in OFFERTS:
         qtd = count_active_ads(off["lib_link"])
         upsert_offer(sheet, off, str(qtd), header)
 
-# Agendar os horários definidos
-for h in HORARIOS:
-    hh = str(h).zfill(4)  # ex: 830 -> '0830'
-    hora_formatada = f"{hh[:2]}:{hh[2:]}"  # '0830' -> '08:30'
-    schedule.every().day.at(hora_formatada).do(job)
-    print(f"[AGENDA] Job agendado para {hora_formatada}")
+# Horários específicos de coleta
+horarios = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 18, 21, 0]
 
-if __name__ == "__main__":
-    print("[INFO] Bot iniciado e aguardando os horários programados...")
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+for h in horarios:
+    schedule.every().day.at(f"{h:02d}:00").do(job)
+
+print("[INFO] Bot de monitoramento iniciado.")
+
+while True:
+    schedule.run_pending()
+    time.sleep(30)
