@@ -60,10 +60,16 @@ OFFERTS = [
         "page_link": "https://churrasraiz.netlify.app/"
     },
     {
-        "nome": "EMAGRWECER II",
+        "nome": "EMAGRECER II",
         "status": "validação",
         "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=420040031187109",
         "page_link": "https://www.vidaativa.online/VSL02"
+    },
+    {
+        "nome": "RECONQUISTA",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=636048416256866",
+        "page_link": "https://temploluzevida.online/rene/"
     }
     # ... mantenha as outras ofertas iguais
 ]
