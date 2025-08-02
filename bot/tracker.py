@@ -34,6 +34,12 @@ OFFERTS = [
         "status": "validação",
         "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=424371080758149",
         "page_link": "https://kitccsmetodologia.fun/" 
+    },
+    {
+        "nome": "EMAGRECER",
+        "status": "validação",
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=103642606062121",
+        "page_link": "https://seca-jejum.shop/" 
     }
     # ... mantenha as outras ofertas iguais
 ]
