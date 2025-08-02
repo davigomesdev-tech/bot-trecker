@@ -40,6 +40,30 @@ OFFERTS = [
         "status": "validação",
         "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=103642606062121",
         "page_link": "https://seca-jejum.shop/" 
+    },
+    {
+        "nome": "SEGREDO SEDUÇÃO",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=639846659201654",
+        "page_link": "https://www.expertpro.digital/OCAMINHODOHOMEM/" 
+    },
+    {
+        "nome": "CORRER",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=637914482733346",
+        "page_link": "https://speedrunacademy.xpages.co/"
+    },
+    {
+        "nome": "CHURRASCO",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=773976339125020",
+        "page_link": "https://churrasraiz.netlify.app/"
+    },
+    {
+        "nome": "EMAGRWECER II",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=420040031187109",
+        "page_link": "https://www.vidaativa.online/VSL02"
     }
     # ... mantenha as outras ofertas iguais
 ]
