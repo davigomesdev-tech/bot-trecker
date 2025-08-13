@@ -18,58 +18,10 @@ HORARIOS = [300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1500, 1800, 210
 
 OFFERTS = [
     {
-        "nome": "URINA",
+        "nome": "ALTAR",
         "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=113502231769915",
-        "page_link": "https://testeincontinencia.lovable.app/" 
-    },
-    {
-        "nome": "CRIANCA BIRRA",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=482914468231490",
-        "page_link": "https://formulaantiagressividade.com/bk-05/" 
-    },
-    {
-        "nome": "CRIANCA LER",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=424371080758149",
-        "page_link": "https://kitccsmetodologia.fun/" 
-    },
-    {
-        "nome": "EMAGRECER",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=103642606062121",
-        "page_link": "https://seca-jejum.shop/" 
-    },
-    {
-        "nome": "SEGREDO SEDUÇÃO",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=639846659201654",
-        "page_link": "https://www.expertpro.digital/OCAMINHODOHOMEM/" 
-    },
-    {
-        "nome": "CORRER",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=637914482733346",
-        "page_link": "https://speedrunacademy.xpages.co/"
-    },
-    {
-        "nome": "CHURRASCO",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=773976339125020",
-        "page_link": "https://churrasraiz.netlify.app/"
-    },
-    {
-        "nome": "EMAGRECER II",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=420040031187109",
-        "page_link": "https://www.vidaativa.online/VSL02"
-    },
-    {
-        "nome": "RECONQUISTA",
-        "status": "validação",
-        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=636048416256866",
-        "page_link": "https://temploluzevida.online/rene/"
+        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=584683601389046",
+        "page_link": "https://quiz.planyzo.com/" 
     }
     # ... mantenha as outras ofertas iguais
 ]
