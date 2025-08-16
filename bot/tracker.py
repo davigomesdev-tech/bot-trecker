@@ -20,8 +20,20 @@ OFFERTS = [
     {
         "nome": "ALTAR",
         "status": "validação",
-        "lib_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=584683601389046",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=584683601389046",
         "page_link": "https://quiz.planyzo.com/" 
+    },
+    {
+        "nome": "CALISTENIA19D",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=118794857807924",
+        "page_link": "https://calistenia19d.desafiofit.online/" 
+    },
+    {
+        "nome": "CAROL",
+        "status": "validação",
+        "lib_link": "https://pt-br.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=664822206717134",
+        "page_link": "https://treinocarolapp.site/" 
     }
     # ... mantenha as outras ofertas iguais
 ]
